@@ -1,10 +1,21 @@
-# Firebase Email Authentication Example App
+Charity and Volunteer logins and authentication
+•	Implement functionality for charity and user login
+•	Build login menu 
+•	Implement security aspects needed to protect users
 
-In this application i have implemented firebase email authentication system. where user can create new account, login using the email and password.
+Charity page with information
+•	Charities able to make a page, users can access to see their details
+•	Charities can post updates and change information on their page
 
-## Features 
-1. Create New account with email
-2. Saved user Data with FireStore 
-3. Forgot Password options
-4. Verify User Email
+Posting ads for opportunities
+•	Implement a create and share post which will send notification to users subscribed to the charities page
+
+
+
+Messages and replies between users and charities
+•	Build in-messaging. 
+•	Notifications for replies
+Volunteers front page 
+•	Page with list of either charities or ads
+•	Allows for a search function for specific ads or charity lookup.
 
