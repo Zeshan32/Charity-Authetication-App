@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/wallpaper">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="Charity Authenticator App"
+        android:textColor="#FFEB3B"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/aclonica"
+        android:layout_below="@+id/textView"
+        android:text="You  are "
+        android:textColor="#F7F7F8"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+    <Button
+        android:id="@+id/OnePlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="165dp"
+        android:drawableLeft="@drawable/oneplayer"
+        android:text="@string/charity" />
+
+    <Button
+        android:id="@+id/TwoPlayer"
+        android:layout_width="133dp"
+        android:layout_height="81dp"
+        android:layout_below="@+id/OnePlayer"
+        android:layout_alignStart="@+id/OnePlayer"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="78dp"
+        android:drawableLeft="@drawable/twoplayer"
+        android:text="@string/user" />
+
+    <Button
+        android:id="@+id/Exit"
+        android:layout_width="141dp"
+        android:layout_height="83dp"
+        android:layout_below="@+id/TwoPlayer"
+        android:layout_alignStart="@+id/TwoPlayer"
+        android:layout_alignEnd="@+id/TwoPlayer"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="-14dp"
+        android:drawableLeft="@drawable/exit"
+        android:text="@string/exit" />
+</RelativeLayout>
